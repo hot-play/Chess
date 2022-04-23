@@ -1,0 +1,125 @@
+.chess-board {
+    height: 600px;
+    width: 600px;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+
+.l-edging,
+.r-edging {
+    width: 20px;
+    height: 70px;
+    float: left;
+    background-color: gray;
+    text-align: center;
+    line-height: 5em;
+    box-sizing: border-box;
+}
+
+.l-edging {
+    border-right: 1px solid black;
+}
+
+.r-edging {
+    border-left: 1px solid black;
+}
+
+.t-edging,
+.b-edging {
+    width: 70px;
+    height: 20px;
+    float: left;
+    background-color: gray;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.t-edging {
+    border-bottom: 1px solid black;
+}
+
+.b-edging {
+    border-top: 1px solid black;
+}
+
+.indent-edging {
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-color: gray;
+}
+
+.block {
+    width: 70px;
+    height: 70px;
+    float: left;
+    align-items: center;
+}
+
+.white {
+    background: #FFF;
+}
+
+.black {
+    background: #87cefa;
+}
+
+.blackKingFigure {
+    background: url("../source/figure/blackKing.png");
+    background-size: contain;
+}
+
+.blackQueenFigure {
+    background: url("../source/figure/blackQueen.png");
+    background-size: contain;
+}
+
+.blackKnightFigure {
+    background: url("../source/figure/blackKnight.png");
+    background-size: contain;
+}
+
+.blackRookFigure {
+    background: url("../source/figure/blackRook.png");
+    background-size: contain;
+}
+
+.blackBishopFigure {
+    background: url("../source/figure/blackBishop.png");
+    background-size: contain;
+}
+
+.blackPawnFigure {
+    background: url("../source/figure/blackPawn.png");
+    background-size: contain;
+}
+
+.whiteKingFigure {
+    background: url("../source/figure/whiteKing.png");
+    background-size: contain;
+}
+
+.whiteQueenFigure {
+    background: url("../source/figure/whiteQueen.png");
+    background-size: contain;
+}
+
+.whiteKnightFigure {
+    background: url("../source/figure/whiteKnight.png");
+    background-size: contain;
+}
+
+.whiteRookFigure {
+    background: url("../source/figure/whiteRook.png");
+    background-size: contain;
+}
+
+.whiteBishopFigure {
+    background: url("../source/figure/whiteBishop.png");
+    background-size: contain;
+}
+
+.whitePawnFigure {
+    background: url("../source/figure/whitePawn.png");
+    background-size: contain;
+}
